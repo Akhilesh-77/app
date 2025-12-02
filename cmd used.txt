@@ -1,0 +1,16 @@
+commands used: //delete after use
+
+docker-compose up --build
+docker-compose down
+docker ps
+
+
+mongoshell logic
+ docker exec -it app-mongo-1 mongosh
+use db 
+show collections
+db.msgs.find()
+
+localhost :
+frontend: http://localhost:3000
+backend: http://localhost:5000/msg
